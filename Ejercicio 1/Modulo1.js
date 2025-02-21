@@ -6,9 +6,10 @@ export let solicitarOpc = () => { // función para solicitar la opción (el tipo
     3. Discover
     4. MasterCard
     5. Visa
+    6. Cancelar
   Ingrese el número: `));
     // Si lo ingresado esta fuera del rango o es una cadena vacía (false) vuelve a pedir la opcion, hasta que sea correcta y se rompa el ciclo.
-    if (opcion < 1 || opcion > 5 || !opcion) alert("Ingrese una opción válida.")
+    if (opcion < 1 || opcion > 6 || !opcion) alert("Ingrese una opción válida.")
     else return opcion;
   }
 }

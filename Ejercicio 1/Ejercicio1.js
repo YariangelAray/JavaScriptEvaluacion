@@ -37,4 +37,4 @@ switch (tipoTarjetaOpc) {
 }
 
 // llamamos a la función que nos retorna el mensaje cuando la tarjeta es válida. Se envian como argumentos la cantidad de dígitos, la nomenclatura, y el tipo de tarjeta
-alert(validarTarjeta(cantDigitos, nomenclatura, tipoTarjeta));
+alert( tipoTarjetaOpc == 6 ? "Programa terminado..." : validarTarjeta(cantDigitos, nomenclatura, tipoTarjeta));

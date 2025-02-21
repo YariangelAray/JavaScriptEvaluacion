@@ -11,7 +11,7 @@ for (let i = 0; i < cantNumeros; i++) {
 }
 
 // Llamamos a la función ordenarArreglo, a la cual le enviamos como argumento el arreglo de números y nos retorna un nuevo arreglo  con los números ordenado.
-let numerosOrdenados = ordenarArreglo(numeros);
+let numerosOrdenados = ordenarArreglo(...numeros);
 
 //Mostramos el nuevo arreglo por consola a manera de tabla
 console.table(numerosOrdenados);

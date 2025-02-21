@@ -11,13 +11,13 @@ export let pedirNumero = (mensaje) => {
 
 }
 
-//Función que recibe un arreglo de números y nos retorna el arreglo con los números ordenados de mayor a menor
-export let ordenarArreglo = (numeros) => {
+//Función expresada que recibe como parametro rest, un arreglo de números y nos retorna el arreglo con los números ordenados de mayor a menor
+export let ordenarArreglo = function ordenar (...numeros) {
 
-  //for que recorre los elementos del arreglo
-  for (let i = 0; i < numeros.length; i++) {
-    // segundo for que recorre desde un elemento siguiente, hasta el penultimo elemento del arreglo, esto nos ayudará a comparar un primer elemento (numeros[i]) con el siguiente (numeros[j]) y así determinar, por cada uno de ellos, cual es el mayor
-    for (let j = i + 1; j < numeros.length - 1; j++) {
+  //for que recorre los elementos del arreglo hasta el penultimo
+  for (let i = 0; i < numeros.length - 1; i++) {
+    // segundo for que recorre desde un elemento siguiente, esto nos ayudará a comparar un primer elemento (numeros[i]) con el siguiente (numeros[j]) y así determinar, por cada uno de ellos, cual es el mayor
+    for (let j = i + 1; j < numeros.length; j++) {
       
       if (numeros[i] < numeros[j]) {
 

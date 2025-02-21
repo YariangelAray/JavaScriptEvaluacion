@@ -37,7 +37,7 @@ do {
     
     case "c"://Contamos la cantidad de números pares con ayuda de una función que, al enviarle como argumento el arreglo de números, nos devuelve la cantidad total de números pares.
       let numPares = contarPares(numeros);
-      alert("La cantidad de números primos es: " + numPares);
+      alert("La cantidad de números pares es: " + numPares);
       break;
     
     case "d": //Calculamos el promedio de números primos con ayuda de una función que, al enviarle como argumento el arreglo de números, nos devuelve el promedio de estos mismos.
@@ -47,7 +47,7 @@ do {
     
     case "e": //Calculamos el promedio de números pares con ayuda de una función que, al enviarle como argumento el arreglo de números, nos devuelve el promedio de estos mismos.
       let promPares = promedioPares(numeros);
-      alert("El promedio de los numeros primos es: " + promPares);
+      alert("El promedio de los numeros pares es: " + promPares);
       break;
     
     case "f": //El programa termina si se ingresa una letra "f"

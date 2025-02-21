@@ -68,6 +68,7 @@ span{
     color: aliceblue;
     font-weight: 1000;
     width: 300px;
+    min-width: 300px;
     height: 100px;
     align-items: center;
     justify-content: center;

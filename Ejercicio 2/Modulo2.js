@@ -12,7 +12,7 @@ export let pedirNumero = (mensaje) => {
 
 // función para pedir una letra, recibe como parametro el mensaje que se mostrará, y válida que sea una letra minuscula utilizando una expresión regular.
 export let pedirLetra = (mensaje) => {
-  let RegExp = /^[a-f]$/;  
+  let RegExp = /^[a-z]$/;  
   do {
     let letra = prompt(mensaje);
   
